@@ -3,19 +3,21 @@ require 'sendgrid-ruby'
 include SendGrid
 
 get '/' do 
-    "hello world"
+    
     erb :index
 end
 
 get '/contact' do
+
     erb :contact
 end
+
 
 post "/" do 
     puts params.inspect
     from = Email.new(email:'khesse92@gmail.com')
-    to = Email.new(email:params[:email])
-    subject = params[:first_name] + " " + params[:last_name]
+    to = Email.new(email: params[:email])
+    subject = "thank you!"
     content = Content.new(type: 'text/plain', value: params[:comments] )
     mail = Mail.new(from, subject, to, content)
     
@@ -25,6 +27,6 @@ post "/" do
     puts response.body
     # puts response.parsed_body
     puts response.headers
-    redirect "/contact"
+    redirect "/"
     
 end 

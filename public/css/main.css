@@ -11,16 +11,12 @@ body {
   background-color:#fffaf0;
 }
 
-
 #cake{
-  width:45%;
+  width:50%;
   height: 50%;
 }
 
-#cupcake{
-  width: 45%;
-  height: 50em;
-}
+
 
 footer{ 
   background-color: #fff5ee; 
