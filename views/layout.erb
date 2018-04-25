@@ -9,13 +9,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <title>Document</title>
     <!-- css link -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <!-- JS link -->
     <script src="javsascript/main.js"></script>
+    <!-- google fonts link -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Sacramento" rel="stylesheet">
 </head>
 <body>
-<header class="nav-bar">
-Kristina's Confections
+<header id ="header">
+Kristina's Confections <br> <br> 
+a fine assortment of baked goods.
 </header>
+<div class="container">
+<%=yield%>
+</div>
+<footer>
+    2018 all rights resevered. 
+</footer>
 </body>
 </html>

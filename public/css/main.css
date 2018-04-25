@@ -1,13 +1,27 @@
-body {
-    background-color: #fdf5e6;
+#header { 
+    background-color: #fff5ee;
+    text-align: center;
+    border-bottom: 1px solid;
+    height: 5em; 
+    font-family: 'Great Vibes', cursive;
+    font-size: 33px;
 }
 
-nav .nav-wrapper {
-    height: 1000px;
-    color: black;
+body { 
+  background-color:#fffaf0;
 }
 
-.nav-bar{
-    font-size: 22px;
-    color: black;
+
+#cake{
+  width:45%;
+  height: 50%;
+}
+
+#cupcake{
+  width: 45%;
+  height: 50em;
+}
+
+footer{ 
+  background-color: #fff5ee; 
 }
