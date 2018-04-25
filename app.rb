@@ -3,6 +3,6 @@ require 'sendgrid-ruby'
 include SendGrid
 
 get '/' do 
-"hello world"
-erb :layout
+    "hello world"
+    erb :layout
 end
