@@ -4,4 +4,5 @@ include SendGrid
 
 get '/' do 
 "hello world"
+erb :layout
 end

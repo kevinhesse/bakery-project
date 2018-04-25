@@ -1,0 +1,13 @@
+body {
+    background-color: #fdf5e6;
+}
+
+nav .nav-wrapper {
+    height: 1000px;
+    color: black;
+}
+
+.nav-bar{
+    font-size: 22px;
+    color: black;
+}
