@@ -16,8 +16,13 @@ body {
   height: 50%;
 }
 
-
+#thanks{
+  text-align: center;
+}
 
 footer{ 
   background-color: #fff5ee; 
+  text-align: center;
+  position:fixed;
+  bottom:0;
 }

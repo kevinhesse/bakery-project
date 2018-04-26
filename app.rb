@@ -7,6 +7,22 @@ get '/' do
     erb :index
 end
 
+get '/thankyou' do 
+  erb :thankyou
+end
+
+get '/cookies' do 
+  erb :cookies
+end
+
+get '/cakes' do
+  erb :cakes
+end
+
+get '/muffins' do
+  erb :muffins
+end
+
 get '/contact' do
 
     erb :contact
@@ -16,7 +32,7 @@ end
 post "/" do 
     puts params.inspect
     from = Email.new(email:'khesse92@gmail.com')
-    to = Email.new(email: params[:email])
+    to = Email.new(email:'khesse92@gmail.com')
     subject = "thank you!"
     content = Content.new(type: 'text/plain', value: params[:comments] )
     mail = Mail.new(from, subject, to, content)
@@ -27,6 +43,6 @@ post "/" do
     puts response.body
     # puts response.parsed_body
     puts response.headers
-    redirect "/"
+    redirect "/thankyou"
     
 end 
