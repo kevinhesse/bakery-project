@@ -1,28 +1,39 @@
 #header { 
-    background-color: #fff5ee;
+    background-color:#FC94AD;
     text-align: center;
     border-bottom: 1px solid;
     height: 5em; 
     font-family: 'Great Vibes', cursive;
-    font-size: 33px;
+    font-size: 35px;
+    color: BLACK;
 }
 
 body { 
-  background-color:#fffaf0;
+  background-image: url("/images/pink-stripe.png");
 }
 
-#cake{
-  width:50%;
-  height: 50%;
+.cake{
+  width: 50%;
+
 }
 
 #thanks{
   text-align: center;
 }
 
-footer{ 
+#logo{
+  padding-bottom: 50px;
+}
+
+.footer{ 
   background-color: #fff5ee; 
   text-align: center;
   position:fixed;
-  bottom:0;
+  width: 100%;
+  bottom: 0;
+}
+
+.dessert {
+  width: 260px;
+  height: 260px;
 }
