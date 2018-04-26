@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,37 +15,43 @@
     <!-- JS link -->
     <!-- google fonts link -->
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aguafina+Script|Varela+Round|Pacifico" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="row">
+    <div class="row">
+        <div class="col s12" class="center valign-wrapper">
+            <header id="header">
+                 Kristina's Confections
+                <br> a fine assortment of baked goods.<br>
+            <div id = links>
+              <a class="link" href='/'>Home</a>
+              <a class="link" href='/cookies'>Cookies</a>
+              <a class="link" href='/muffins'>Muffins</a>
+              <a class="link" href='/cakes'>Cakes </a>
+              <a class="link" href='/contact'>Contact Us </a>
+              <br>
+            </div>
+            </header>
+        </div>
+    </div>
 
-<div class="col s12" class="center valign-wrapper" >
-<header id ="header">
-<br>
-Kristina's Confections <br>
-a fine assortment of baked goods.
-</header>
-</div>
-</div>
+    <div class="row">
+    <br>
+    <div class="container">
 
-<div class="row">
 
-<div class="col s12" class="center valign-wrapper" >
-  Cookies Cakes muffins
-</div>
-
-<div class="container">
-
-    
-<%=yield%>
-</div>
+            <%=yield%>
+    </div>
 
 
 
 </body>
 
-<div class = "footer">
-    <p>2018 all rights resevered.</p> 
+<div class="footer">
+    <p>tel: (516) 578-7645 | Store Hours: M-F 7:00 - 7:00 | Sa-Su 6:30 - 5:00 </p> <br>
 </div>
+
 </html>

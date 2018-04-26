@@ -34,7 +34,41 @@ post '/contact' do
     from = Email.new(email:'khesse92@gmail.com')
     to = Email.new(email:'khesse92@gmail.com')
     subject = "thank you!"
-    content = Content.new(type: 'text/plain', value: "thanks" )
+    content = Content.new(type: 'text/plain', value:
+     "Thank you for your interest in our products. 
+     here is a catalog of everything we have to offer
+
+     Cakes: 
+     vanilla
+     chocolate
+     white
+     marble 
+     red velvet
+     carrot
+     flourless chocolate
+     devils food
+
+     Cookies:
+     chocolate chip
+     oatmeal rasin
+     macadamia nut
+     peanut butter
+     rainbow
+     sugar
+     shortbread
+     macaroon
+     macaron
+
+     Muffins:
+     banana chocolate
+     lemon poppy seed
+     blueberry
+     bran
+     corn
+     chocolate chip
+     double chocolate chip"
+     )
+     
     mail = Mail.new(from, subject, to, content)
     
     sg = SendGrid::API.new(api_key:ENV['SENDGRID_API_KEY'])
@@ -46,3 +80,5 @@ post '/contact' do
     redirect "/thankyou"
     
 end 
+
+

@@ -1,15 +1,18 @@
 #header { 
-    background-color:#FC94AD;
+    background-color:#ffe4e1;
     text-align: center;
     border-bottom: 1px solid;
     height: 5em; 
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Aguafina Script', cursive;
     font-size: 35px;
+    padding-top: .2em;
     color: BLACK;
 }
 
 body { 
-  background-image: url("/images/pink-stripe.png");
+  background-image: url("/images/another-pink-stripe.png");
+  font-family: 'Niconne', cursive;
+  font-size: 25px;
 }
 
 .cake{
@@ -26,14 +29,37 @@ body {
 }
 
 .footer{ 
-  background-color: #fff5ee; 
+  background-color: #ffe4e1; 
   text-align: center;
   position:fixed;
   width: 100%;
+  height: 10%;
   bottom: 0;
 }
 
 .dessert {
   width: 260px;
   height: 260px;
+}
+
+#links{
+  font-size: 25px;
+  margin: 25px;
+  font-family: 'Niconne', cursive;
+}
+
+.link{
+  margin:
+  30px;
+
+}
+
+.cookie {
+  font-size: 10px;
+  color: green;
+}
+
+a:hover{
+  color:lightcoral;
+
 }
