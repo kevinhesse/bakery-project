@@ -35,7 +35,7 @@ post '/contact' do
     to = Email.new(email:'khesse92@gmail.com')
     subject = "thank you!"
     content = Content.new(type: 'text/plain', value:
-     "Thank you for your interest in our products. 
+    "Thank you for your interest in our products. 
      here is a catalog of everything we have to offer
 
      Cakes: 
@@ -50,7 +50,7 @@ post '/contact' do
 
      Cookies:
      chocolate chip
-     oatmeal rasin
+     oatmeal raisin
      macadamia nut
      peanut butter
      rainbow
@@ -67,6 +67,7 @@ post '/contact' do
      corn
      chocolate chip
      double chocolate chip"
+
      )
      
     mail = Mail.new(from, subject, to, content)

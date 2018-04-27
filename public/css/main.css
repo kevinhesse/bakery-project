@@ -20,8 +20,13 @@ body {
 
 }
 
+.form{
+  font-size: 20px;
+}
+
 #thanks{
   text-align: center;
+  padding-bottom: 20%;
 }
 
 img{
@@ -60,7 +65,7 @@ img{
 }
 
 .cookie {
-  font-size: 20px;
+  font-size: 22px;
   
 }
 
