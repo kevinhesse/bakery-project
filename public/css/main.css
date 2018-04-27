@@ -17,7 +17,6 @@ body {
 
 .cake{
   width: 50%;
-
 }
 
 .form{
@@ -61,15 +60,12 @@ img{
 .link{
   margin:
   30px;
-
 }
 
 .cookie {
   font-size: 22px;
-  
 }
 
 a:hover{
   color:lightcoral;
-
 }

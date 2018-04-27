@@ -33,7 +33,7 @@ post '/contact' do
     puts params.inspect
     from = Email.new(email:'khesse92@gmail.com')
     to = Email.new(email:'khesse92@gmail.com')
-    subject = "thank you!"
+    subject = "Thank you!"
     content = Content.new(type: 'text/plain', value:
     "Thank you for your interest in our products. 
      here is a catalog of everything we have to offer
